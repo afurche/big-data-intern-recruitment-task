@@ -32,6 +32,8 @@ All possible invalid user inputs are handled.
 
 Tests conducted:
 
+Script written and tested on Python 3.8
+
 All four types of joins performed on small test files (test files and results provided in repository)
 
 I didn't test the script on very large files (ones that exceed the machine's memory), because considering the nature of Dask framework (and csv reader) there is no possibility of exceeding the memory.
