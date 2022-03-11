@@ -25,7 +25,7 @@ In the `file_path` arguments .csv extension is **not** required.
 
 `join_type` is optional (on default: 'inner')
 
-All possible invalid user inputs are handled. 
+Possible invalid user inputs are handled. 
 
 Tests conducted:
 
