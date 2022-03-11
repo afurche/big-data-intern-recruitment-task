@@ -14,7 +14,7 @@ The most challenging decision to make was how to handle the output of the script
 
 How to run the script:
 ```
-    python join.py *result_type* *file_path1* *file_path2* *column_name* [*join_type*]
+    join *result_type* *file_path1* *file_path2* *column_name* [*join_type*]
 ```
 
 Due to upper mentioned challenge I've decided to give user the choice of 5 possible ways to receive the output:
@@ -32,7 +32,7 @@ All possible invalid user inputs are handled.
 
 Tests conducted:
 
-Script written and tested in Python 3.9
+Script written and tested in Python 3.9 and on Windows 10
 
 All four types of joins performed on small test files (test files and results provided in repository)
 
