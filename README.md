@@ -1,9 +1,10 @@
 # big-data-intern-recruitment-task
  Recruitment task for big data internship at VirtusLab
 
-My technology of choice to create this script was Python, simply because it is the technology I'm most comfortable in. To handle load and join of csv file I've decided to use Dask library, which provides Data Frames which work in a simmilar fashion to one found in Pandas, altough allow to handle datasets which are size is bigger than available memory (which was part of requirements).
+My technology of choice to create this script was Python, simply because it is the technology I'm most comfortable in. To handle loading and joining of csv files I've decided to use Dask library, which provides Data Frames which work in a simmilar fashion to one found in Pandas, altough allow to handle datasets which size is bigger than available memory (which was part of the task assumptions).
 
-Requirements for the scripts can be found in requirements.txt file and can be installed using `pip install -r requirements.txt`
+Requirements for the scripts can be found in requirements.txt file and can be installed using
+`pip install -r requirements.txt`
 
 Dask Data Frames do not store the data in memory (like their equivalents in Pandas do), but only store task graphs which are to be executed in lazy way when required. 
 
@@ -30,6 +31,8 @@ In the `file_path` arguments .csv extension is **not** required.
 All possible invalid user inputs are handled. 
 
 Tests conducted:
+
+Script written and tested in Python 3.9
 
 All four types of joins performed on small test files (test files and results provided in repository)
 
