@@ -15,11 +15,11 @@ How to run the script:
 ```
 
 Due to upper mentioned challenge I've decided to give user the choice of 5 possible ways to receive the output:
-- `to_csv` : the entire result is saved to a new csv file and nothing gets printed in the standard output
-- `print_head` : prints only the first 5 rows of the result to the standard output without saving it to csv file
-- `print_head_csv` : prints the first 5 rows of the results and writes whole result to a new csv file
+- `to_csv` : the entire results are saved to a new csv file and nothing gets printed in the standard output
+- `print_head` : prints only the first 5 rows of the results to the standard output without saving it to csv file
+- `print_head_csv` : prints the first 5 rows of the results and writes whole results to a new csv file
 - `print_all_memory` : prints the whole results 'from memory', **shouldn't be used if user expects the results to be  bigger than memory !**
-- `print_all_csv` : the results is saved to a csv file, then using a csv reader it is printed line by line to the standard output without the risk of running out of memory
+- `print_all_csv` : the results are saved to a csv file, then using a csv reader it is printed line by line to the standard output without the risk of running out of memory
 
 In the `file_path` arguments .csv extension is **not** required.
 
