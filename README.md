@@ -32,7 +32,7 @@ All possible invalid user inputs are handled.
 
 Tests conducted:
 
-Script written and tested on Python 3.8
+Script written and tested on Python 3.9
 
 All four types of joins performed on small test files (test files and results provided in repository)
 
