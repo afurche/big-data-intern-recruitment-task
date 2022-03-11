@@ -3,9 +3,6 @@
 
 My technology of choice to create this script was Python, simply because it is the technology I'm most comfortable in. To handle loading and joining of csv files I've decided to use Dask library, which provides Data Frames which work in a simmilar fashion to one found in Pandas, altough allow to handle datasets which size is bigger than available memory (which was part of the task assumptions).
 
-Requirements for the scripts can be found in requirements.txt file and can be installed using
-`pip install -r requirements.txt`
-
 Dask Data Frames do not store the data in memory (like their equivalents in Pandas do), but only store task graphs which are to be executed in lazy way when required. 
 
 Considering join operation, there's also no risk of running out of memory, but computing joins on very large unsorted files is very demanding and can be really slow. 
